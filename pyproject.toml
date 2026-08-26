@@ -1,0 +1,27 @@
+[project]
+name = "meta-team"
+version = "0.1.0"
+description = "Meta-Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems"
+requires-python = ">=3.10"
+dependencies = [
+    "litellm==1.80.17",
+    "pyyaml>=6.0",
+    "duckduckgo-search>=7.0.0",
+    "ddgs>=9.0.0",
+    "aiohttp>=3.9.0",
+    "certifi",
+    "docker>=7.0.0",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "python-docx>=1.0",
+    "pdfplumber>=0.11",
+    "pypdf>=4.0",
+    "python-pptx>=1.0",
+    # LOCA-Bench MCP runtime.  excel-mcp-server currently requires FastMCP 2.x;
+    # keep the upper bound to prevent an incompatible 3.x/slim mix.
+    "fastmcp>=2.0.0,<3.0.0",
+    "excel-mcp-server>=0.1.8",
+]
+
+[tool.setuptools.packages.find]
+include = ["benchmarks*", "core*", "evaluation*", "tools*"]

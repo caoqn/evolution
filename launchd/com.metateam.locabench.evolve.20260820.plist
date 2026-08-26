@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.metateam.locabench.evolve.20260820</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team/scripts/run_locabench_paper_experiment.sh</string>
+    <string>evolve-mt</string>
+    <string>--execute</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>LOCA_RUN_ID</key>
+    <string>20260820_113400_loca_evolve_mt_96k</string>
+    <key>META_TEAM_PYTHON</key>
+    <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team/.venv-loca/bin/python</string>
+    <key>META_TEAM_ENV_FILE</key>
+    <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team/apiconfig/loca.env</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team/logs/20260820_113400_loca_evolve_mt_96k.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/meta_team evolution/Meta-Team/logs/20260820_113400_loca_evolve_mt_96k.log</string>
+</dict>
+</plist>

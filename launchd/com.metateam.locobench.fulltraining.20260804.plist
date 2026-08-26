@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.metateam.locobench.fulltraining.20260804</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/caoqinuo/Desktop/6月课题/Meta-Team/scripts/run_locobench_full_training_6agent.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/Meta-Team</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/Meta-Team/logs/20260804_100641_locobench_full_training_6agent.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/caoqinuo/Desktop/6月课题/Meta-Team/logs/20260804_100641_locobench_full_training_6agent.log</string>
+</dict>
+</plist>
